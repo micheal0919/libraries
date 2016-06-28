@@ -1,0 +1,34 @@
+﻿Build started 28.06.2016 15:36:52.
+     1>Project "C:\Users\ywen\Desktop\work\gflags\New folder\gflags_shared.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/ywen/Desktop/work/gflags/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\ywen\Desktop\work\gflags\New folder\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\ywen\Desktop\work\gflags\New folder\include" /IC:\Users\ywen\Desktop\work\gflags\src /I"C:\Users\ywen\Desktop\work\gflags\New folder\include\gflags" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D GFLAGS_IS_A_DLL=1 /D "CMAKE_INTDIR=\"Debug\"" /D gflags_shared_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"gflags_shared.dir\Debug\\" /Fd"gflags_shared.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt C:\Users\ywen\Desktop\work\gflags\src\gflags.cc C:\Users\ywen\Desktop\work\gflags\src\gflags_reporting.cc C:\Users\ywen\Desktop\work\gflags\src\gflags_completions.cc C:\Users\ywen\Desktop\work\gflags\src\windows_port.cc
+         gflags.cc
+     1>c:\users\ywen\desktop\work\gflags\src\windows_port.h(72): warning C4005: 'va_copy' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdarg.h(37) : see previous definition of 'va_copy'
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\shlwapi.h(2024): warning C4005: 'OS_WINDOWS' : macro redefinition
+                 c:\users\ywen\desktop\work\gflags\new folder\include\gflags\config.h(13) : see previous definition of 'OS_WINDOWS'
+         gflags_reporting.cc
+     1>c:\users\ywen\desktop\work\gflags\src\windows_port.h(72): warning C4005: 'va_copy' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdarg.h(37) : see previous definition of 'va_copy'
+         gflags_completions.cc
+     1>c:\users\ywen\desktop\work\gflags\src\windows_port.h(72): warning C4005: 'va_copy' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdarg.h(37) : see previous definition of 'va_copy'
+         windows_port.cc
+     1>c:\users\ywen\desktop\work\gflags\src\windows_port.h(72): warning C4005: 'va_copy' : macro redefinition
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdarg.h(37) : see previous definition of 'va_copy'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ywen\Desktop\work\gflags\New folder\bin\Debug\gflags.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib shlwapi.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ywen/Desktop/work/gflags/New folder/bin/Debug/gflags.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ywen/Desktop/work/gflags/New folder/lib/Debug/gflags.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug /DLL gflags_shared.dir\Debug\gflags.obj
+         gflags_shared.dir\Debug\gflags_reporting.obj
+         gflags_shared.dir\Debug\gflags_completions.obj
+         gflags_shared.dir\Debug\windows_port.obj
+            Creating library C:/Users/ywen/Desktop/work/gflags/New folder/lib/Debug/gflags.lib and object C:/Users/ywen/Desktop/work/gflags/New folder/lib/Debug/gflags.exp
+         gflags_shared.vcxproj -> C:\Users\ywen\Desktop\work\gflags\New folder\bin\Debug\gflags.dll
+     1>Done Building Project "C:\Users\ywen\Desktop\work\gflags\New folder\gflags_shared.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.72
